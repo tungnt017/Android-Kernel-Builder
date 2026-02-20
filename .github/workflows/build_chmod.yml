@@ -154,7 +154,7 @@ jobs:
         run: |
          chmod +x build.sh
          ./build.sh
-         filename=$(find . -name Quick* -printf '%f\n')
+         filename=$(find . -name *.zip -printf '%f\n')
           echo $filename
           echo "FILENAME=$filename" >> $GITHUB_ENV
 
