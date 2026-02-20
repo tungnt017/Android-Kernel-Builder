@@ -156,7 +156,7 @@ jobs:
         run: |
           echo "PATH Variable: $PATH"
           make ${args}
-         filename=$(find . -name Quick* -printf '%f\n')
+           filename=$(find . -name Quick* -printf '%f\n')
           echo $filename
           echo "FILENAME=$filename" >> $GITHUB_ENV
 
