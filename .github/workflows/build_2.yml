@@ -152,8 +152,8 @@ jobs:
         env:
           args: ${{ steps.generate-args.outputs.args }}
         run: |
-          echo "PATH Variable: $PATH"
-          make ${args}
+         chmod +x build.sh
+         ./build.sh
 
       - name: "💛 Upload Image"
         uses: actions/upload-artifact@v4
