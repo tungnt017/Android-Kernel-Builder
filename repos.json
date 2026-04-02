@@ -1,8 +1,8 @@
 [  {
     "kernelSource": {
       "name": "lisa-KernelSU",
-      "repo": "https://github.com/likkai/ksu_kernel_xiaomi_lisa.git",
-      "branch": "KernelSU",
+      "repo": "https://github.com/PixelExperience-Devices/kernel_xiaomi_lisa.git",
+      "branch": "thirteen",
       "device": "lisa"
     },
     "withKernelSU": true,
